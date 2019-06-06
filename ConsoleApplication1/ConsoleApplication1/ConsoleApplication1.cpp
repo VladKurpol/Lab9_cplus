@@ -107,7 +107,7 @@ void Input(timetable *table, int number)
 		std::cout << "Часы: ";
 		std::cout << "Конец первого экзамена (час)";
 		std::cin >> table[i].e.tm_hour[0];
-		std::cout << "\n" << "\n";
+		std::cout << "\n";
 		std::cout << "Конец второго экзамена (час)";
 		std::cin >> table[i].e.tm_hour[0];
 		std::cout << "\n" << "\n";
